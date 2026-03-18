@@ -1,0 +1,11 @@
+1.
+Paragraph A - element selector
+Paragraph B - class selector
+Paragraph C - id selector
+Paragraph D - class selector + id selector (#warning.info)
+
+2.
+#warning.info (id + class > id > class)
+font family: Courier New, monospace (id > class > element)
+3.
+Nothing happens. The h1 follows the rules of the style.css

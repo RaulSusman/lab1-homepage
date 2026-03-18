@@ -1,0 +1,21 @@
+.info{
+    color:white;
+    background-color:rgb(150, 52, 241)
+}
+
+table thead{
+    color:white;
+    background-color:rgb(132, 23, 233)
+}
+.table{
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+table td, th {
+  padding: 10px;
+}
+tbody tr:nth-child(even) {
+    background-color: #dfd1f1;
+}

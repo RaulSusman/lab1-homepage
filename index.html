@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
   <title>Course homepage - Heading hierarchy example</title>
+  <link rel="stylesheet" href="style1.css">
+  <style>
+    table thead{
+      text-align: left;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -15,6 +21,7 @@
       <li><a href="https://stefaniga.github.io/ewd-uvt-2026/labs/1/">Course site</a></li>
       <li><a href="https://www.w3schools.com/html/html_basic.asp">Resources</a></li>
       <li><a href="contact.html">Contact</a></li>
+      <li><a href="card.html">Business card</a></li>
     </ul>
   </nav>
   <main id="main-content">
@@ -26,7 +33,7 @@
       <h2>Photo</h2>
       <img src="html.gif" alt="Este un gif cu HTML, lucrul pe care il voi studia semestrul acesta">
     </section>
-    <table border="1">
+    <table border="0" class="table">
     <thead>
         <tr>
             <th scope="col" colspan="3">Personal Skills</th>
@@ -34,20 +41,20 @@
     </thead>
     <tbody>
         <tr>
-            <th scope="row" rowspan="3">Programing</th>
+            <th scope="row" rowspan="3" class="info">Programing</th>
             <td>Python</td>
-            <td>JavaScript</td>
+            <td style="background-color: rgb(189, 239, 114); color: green;">JavaScript</td>
         </tr>
         <tr>
             <td>C/C++</td>
-            <td>C#</td>
+            <td style="background-color: rgb(224, 108, 108); color: rgb(183, 14, 14);">Java</td>
         </tr>
         <tr>
             <td>Java</td>
             <td>-</td>
         </tr>
         <tr>
-            <th scope="row" rowspan="4">Design</th>
+            <th scope="row" rowspan="4" class="info" style="border: 1px solid #ffffff;">Design</th>
             <td colspan="2">Figma</td>
         </tr>
         <tr>
@@ -60,7 +67,7 @@
             <td colspan="2">UI/UX</td>
         </tr>
         <tr>
-            <th scope="row">Other</th>
+            <th scope="row" class="info">Other</th>
             <td colspan="2">Git</td>
         </tr>
     </tbody>
